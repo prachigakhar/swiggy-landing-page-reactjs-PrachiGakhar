@@ -1,0 +1,26 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.body__container{
+    background-color: #2b1e16;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    min-height: 400px;
+    padding-bottom: 50px;
+}
+.data{
+    width: 300px;
+    margin-top: 5px;
+    color:#fff;
+    text-align: center;
+}
+.data img{
+    width: 100px;
+    margin-bottom:8px;
+}
+
+.data h3{
+    margin: 8px auto;
+}

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './swiggy_components/header';
+import Body from './swiggy_components/body';
+import Footer from './swiggy_components/footer';
+import Sec from './swiggy_components/sec3';
+import './App.css'
+import  {body_section} from './All_Data/mydata';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     <Header/>
+     <Body data={body_section}/>
+     <Sec/>
+     <Footer/>
+
     </div>
   );
 }
